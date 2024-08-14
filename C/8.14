@@ -1,0 +1,19 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+// 全局变量 在{}外面的变量叫做全局变量
+// I learn C for the first day 2024.08.14
+
+// my homework :1. 用C语言描写出我的身体特征   2.
+int main()
+{
+  //局部变量：在{}内部的变量叫做局部变量 --- 当局部变量与全局变量名称重复时，局部变量优先。
+	char name = 'hob';
+	char gender = '男';
+	int age = 20;
+	double weight = 55.5;
+	double height = 177.5;
+	return 0;
+}
+// scanf 输入函数
+// 全局变量
+
