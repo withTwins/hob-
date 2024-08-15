@@ -1,0 +1,20 @@
+#include <stdio.h>
+int a = 1;
+typedef float INT16;
+int main()
+{
+    char name="";
+    char gender='man';
+    unsigned int age =20;
+    float height =175.2f;
+    double weight =53;
+    char birthplace="Jiangsu";
+    printf("%d\n",name);
+    printf("%d\n",gender);
+    printf("%d\n",age);
+    printf("%d\n",height);
+    printf("%d\n",weight);
+    printf("%d\n",birthplace);
+    return 0;
+
+}
