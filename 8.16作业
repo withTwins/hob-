@@ -1,0 +1,43 @@
+
+
+# include <stdio.h>
+int main()
+{
+    int a = 10;
+    float b = 3.8f;
+    int c;
+    double d = 5.8;
+    int e;
+    e = b;
+    int f = 816;
+    float g;
+    g = (float)f;
+    printf("%d\n",c=b);
+    printf("%d\n", 5/2);    //float 型转换成int型
+    // printf("%f\n",b);       
+    // printf("%lf\n",d=c);
+    // printf("%d\n",c=d);
+    printf("%lf\n",5.8/2);  // float类型转换成double型
+    // printf("%lf\n",d);
+    printf("%d\n",e);       // 自动类型转换都是在运算的过程中进行临时性的转换，并不会影响自动类型转换的变量值和其类型
+    printf("%f\n",b);    // 自动类型转换都是在运算的过程中进行临时性的转换，并不会影响自动类型转换的变量值和其类型
+    printf("%f\n",g);   // 将f强制转换成float型
+    
+
+    //运算符
+    int grade = 10;
+    int age = 20;
+    float height = 175.3f;
+    float weight;
+    // unsigned float hehe = height; 
+    weight = (float)age;
+    printf("%d\n", grade + age);
+    printf("%f\n",grade + height);
+    printf("%lf\n",age + height);
+    printf("%d\n",grade*(3+4));
+    printf("%d\n",grade % age);
+    printf("%d\n",grade / age);
+    printf("%d\n", age / grade);
+    // printf("%f\n",hehe % weight);
+    return 0;
+}
