@@ -1,0 +1,62 @@
+ 8.20
+ 
+ 1. 逗号预算符
+ (),()
+ 例：
+ #include <stdio.h>
+ int main()
+ {
+ 
+	int num;
+	num = (5,6);
+	printf("%d\n",num);
+	return 0;
+ }
+ // 运行结果为6，则逗号运算符的结果是后边表达式的结果。
+ 
+ 2.自增自减运算符
+ 
+ i++  i--
+ 运算符在变量的后面，在当前表达式中先用i的值，下调语句的时候i的值改变。
+ int main()
+{
+    int num;
+    int i = 6;
+    num = i++;
+    int c = i;
+    printf("%d,i=%d\n,c=%d",num,i,c);
+    return 0;
+}
+ 
+ 
+ ++i 先加，后用
+ int main()
+{
+    int num;
+    int i = 3;
+    num = ++i;
+    int c = i;
+    printf("%d,i=%d\n,c=%d",num,i,c);
+    return 0;
+}
+结果为 4,4,4
+
+3.运算符优先级及结合性
+
+1).运算符优先级
+
+int a;
+a =2+5+3*4-6;
+
+2).运算符的结合性
+左结合性：从左向右算
+
+int a;
+a =2+3+9+10;
+
+右结合性：
+int a,b,c,d;
+a=b=c=d=100;
+
+优先级和结合性表：
+链接： http://blog.csdn.net/huangblog/article/details/8271791
